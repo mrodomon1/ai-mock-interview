@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: import.meta.env.VITE_API_URL || "https://ai-mock-interview-la6e.onrender.com",
+    baseURL: import.meta.env.VITE_API_URL || "https://ai-mock-interview-1a6e.onrender.com",
     withCredentials: true,
 })
 
